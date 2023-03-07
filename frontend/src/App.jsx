@@ -6,6 +6,8 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from "./components/home/home";
 import Rentals from "./components/rentals/Rentals";
 import Add from "./components/add/add";
+import { db } from "./firebase";
+import { storage } from "./firebase";
 
 function App() {
   return (
