@@ -1,0 +1,43 @@
+.box1{
+    background-color: black;
+    
+  }
+  .navbar1 {
+    display: flex;
+  
+    margin-left: 200px;
+    align-items: center;
+  
+    margin-left: 65%;
+  }
+  
+  .navbar1 ul {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar1 ul li {
+    list-style: none;
+    margin-left: 4rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar1 ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(233, 233, 233);
+    margin-right: 30px;
+  }
+  
+  .navbar1 ul li a:hover {
+    color: rgb(147, 147, 147);
+  
+    transition: 0.2s;
+  }
+  
